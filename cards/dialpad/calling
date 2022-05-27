@@ -1,0 +1,33 @@
+{
+  "canvas": {
+    "content": {
+      "components": [{
+        "id": "rate-this-dog-header",
+        "type": "text",
+        "text": "Aircall",
+        "style": "header",
+        "align": "center",
+        "bottom_margin": false
+      }, {
+        "id": "welcome-link",
+        "type": "image",
+        "url": "https://i.ibb.co/ZXX2tWL/ezgif-com-gif-maker-2.gif",
+        "align": "center",
+        "width": 130,
+        "height": 130,
+        "rounded": true
+      }, {
+        "id": "b57a7c7047a3674d6876063a2e3a",
+        "type": "button",
+        "label": "Request A Call Back",
+        "style": "primary",
+        "action": {
+          "type": "submit",
+          "url": null
+        },
+        "bottom_margin": false
+      }]
+    },
+    "stored_data": {}
+  }
+}

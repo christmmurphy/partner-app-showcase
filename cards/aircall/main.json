@@ -1,0 +1,33 @@
+{
+  "canvas": {
+    "content": {
+      "components": [{
+        "id": "AircallMainCard",
+        "type": "text",
+        "text": "Aircall",
+        "style": "header",
+        "align": "center",
+        "bottom_margin": false
+      }, {
+        "id": "main-card",
+        "type": "image",
+        "url": "https://uploads-ssl.webflow.com/5e9dc792e1210c5325f7ebbc/5ebeb41f6424e93d75eb04cf_ef1dcf0.gif",
+        "align": "center",
+        "width": 130,
+        "height": 130,
+        "rounded": true
+      }, {
+        "id": "b57a7c7047a3674d6876063a2e3a",
+        "type": "button",
+        "label": "Request A Call Back",
+        "style": "primary",
+        "action": {
+          "type": "sheet",
+          "url": "https://i.ibb.co/ZXX2tWL/ezgif-com-gif-maker-2.gif"
+        },
+        "bottom_margin": false
+      }]
+    },
+    "stored_data": {}
+  }
+}
