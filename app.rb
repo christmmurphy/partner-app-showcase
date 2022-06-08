@@ -6,10 +6,6 @@ require "intercom"
 ## https://codebeautify.org/jsonminifier
 ## https://codebeautify.org/javascript-escape-unescape
 
-# Create an Intercom client to make REST API calls
-access_token = ENV['TOKEN']
-intercom = Intercom::Client.new(token: access_token)
-
 post'/' do # This section listens for the initial post from Intercom and retruns the default state of the card when the app is first loaded by the messenger
   aircallCard = File.read('cards/aircall/main.json')
   aircallCard # Return the card
