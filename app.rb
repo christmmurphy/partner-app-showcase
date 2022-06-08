@@ -19,7 +19,3 @@ end
 post'/configure' do
   # To Do | Build a configure card to allow admins to select WHICH card is inserted.
 end
-
-get '/' do
-  "👋 Check out the GH Repo <a href='https://github.com/christmmurphy/partner-app-showcase'>here</a>"
-end
